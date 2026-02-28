@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# TodoApp (React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple to-do list application built with React Native and Expo. It uses
+functional components and hooks to manage state, and demonstrates a clean,
+modern UI with a green color palette.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Add, edit, delete tasks
+- Mark tasks as done (with strikethrough style)
+- Scrollable list using `FlatList`
+- Basic state management with `useState`
+- Simple responsive layout
 
+## Installation & Running
+
+1. Make sure you have **Node.js** and **Expo CLI** installed:
+   ```bash
+   npm install -g expo-cli
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd "e:\React native apps\todo_list\TodoApp"
+   ```
+
+3. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+   or
    ```bash
-   npx expo start
+   yarn install
    ```
 
-In the output, you'll find options to open the app in a
+4. Start the development server:
+   ```bash
+   expo start
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+5. Scan the QR code with the Expo Go app on your phone, or launch an
+   emulator/simulator from the Expo developer tools.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+TodoApp/
+  app/                  # application code (entry point under (tabs)/index.tsx)
+  assets/               # images and static assets
+  components/           # reusable UI components
+  hooks/                # custom hooks
+  scripts/              # helper scripts (e.g., reset-project)
+  package.json
+  tsconfig.json
+  eslint.config.js
+  app.json
+  README.md            # this file
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+> Note: This repository is written in TypeScript; the core screen in
+> `app/(tabs)/index.tsx` contains the implementation of the to-do list.
+## Snack Expo URL
+https://snack.expo.dev/@abdulrahman.mansour/76c7bd
+## Contributing
 
-## Learn more
+Feel free to fork the repository, open issues, or submit pull requests. This
+is intended as a small demo app and learning project.
 
-To learn more about developing your project with Expo, look at the following resources:
+## License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MIT License.
