@@ -60,7 +60,7 @@ TodoApp/
 > Note: This repository is written in TypeScript; the core screen in
 > `app/(tabs)/index.tsx` contains the implementation of the to-do list.
 ## Snack Expo URL
-https://snack.expo.dev/@abdulrahman.mansour/76c7bd
+https://snack.expo.dev/@abdulrahman.mansour/lab01
 ## Contributing
 
 Feel free to fork the repository, open issues, or submit pull requests. This
